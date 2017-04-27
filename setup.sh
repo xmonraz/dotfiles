@@ -12,7 +12,12 @@ EOL
 
 # ubuntu 16
 sudo apt update
-sudo apt install indicator-multiload paper-icon-theme
+sudo apt install \
+     indicator-multiload \
+     paper-icon-theme \
+     paper-cursor-theme \
+     paper-gtk-theme \
+     markdown \
 
 # docker-compose completion
 sudo curl -L https://raw.githubusercontent.com/docker/compose/$(docker-compose version --short)/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
